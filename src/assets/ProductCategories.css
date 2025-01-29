@@ -1,0 +1,59 @@
+.col h1{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.container .col .product-categories-link .col a{
+    color: black !important;
+    text-decoration: none;
+}
+
+.container .col .product-categories-link .col a:hover{
+    color: rgb(42, 133, 236) !important;
+    text-decoration: underline;
+}
+.container .product-categories-card .col .card .card-title{
+    font-size: medium;
+   }
+.container .product-categories-card .col .card .card-text{
+ font-size: small;
+}
+
+.container .product-categories-card .col .btn{
+    background-color: rgb(42, 133, 236);
+    padding: 0.5rem 1.5rem; /* Adjust padding */
+    border-radius: 1.5rem;
+    
+}
+
+.container .product-categories-card .col .btn:hover{
+    background-color: white; 
+    color: black;
+    border-color: black;
+}
+
+/* Style the tag */
+.container .product-categories-card .col .card .tag-sale{
+    position: absolute; /* Place it relative to the image */
+    top: 10px; /* Adjust the vertical position */
+    left: 10px; /* Adjust the horizontal position */
+    background-color: rgb(42, 133, 236) ; /* Tag background color */
+    color: rgb(252, 252, 252); /* Tag text color */
+    font-size: 0.7rem; /* Font size */
+    font-weight: bold; /* Bold text */
+    padding: 5px 15px; /* Padding around the text */
+    border-radius: 5px; /* Rounded corners */
+    z-index: 1; /* Ensure the tag appears above the image */
+  }
+
+
+  /* Style the tag */
+.container .product-categories-card .col .card .tag-ecofriendly img{
+    position: absolute; /* Place it relative to the image */
+    top: 10px; /* Adjust the vertical position */
+    right: 10px; /* Adjust the horizontal position */
+    width: 30px;
+    height: auto; 
+    border-radius: 5px; /* Rounded corners */
+    z-index: 1; /* Ensure the tag appears above the image */
+  }

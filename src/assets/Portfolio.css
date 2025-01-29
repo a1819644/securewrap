@@ -1,0 +1,23 @@
+.container .col h1{
+    text-align: center;
+}
+
+.container .col .portfolio-card{
+    margin-bottom: 20px;
+    
+}
+
+.container .col .portfolio-card p{
+    font-size:medium;
+    font-weight: 300 !important;
+    
+}
+
+.container .col .portfolio-card ul{
+    font-weight: 400 !important;
+}
+
+.container .col .row .col p{
+    font-size:medium;
+    font-weight: 300 !important;
+}
